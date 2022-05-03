@@ -14,13 +14,18 @@
   margin-right: auto;
   min-width: 100px;
   max-width: 700px;
-  min-height: 40px;
   flex-grow: 1;
   background-color: #68ff70;
+  display: flex;
+  justify-content: space-between;
 }
 
 .icons-container {
   background-color: #ff6868;
   min-width: 150px;
   height: 40px;
+}
+
+.links {
+
 }
