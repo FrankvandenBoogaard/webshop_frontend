@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  /* Fixed height */
+  height: 60px;
+  background-color: #8568ff;
+  /* flex box */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.links-container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100px;
+  max-width: 700px;
+  min-height: 40px;
+  flex-grow: 1;
+  background-color: #68ff70;
+}
+
+.icons-container {
+  background-color: #ff6868;
+  min-width: 150px;
+  height: 40px;
+}
