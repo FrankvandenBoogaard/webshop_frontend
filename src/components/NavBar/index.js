@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { HiAcademicCap, HiBell, HiCalculator } from 'react-icons/hi';
 import './styles.css';
 
 function NavBar() {
@@ -29,7 +30,11 @@ function NavBar() {
           About
         </NavLink>
       </div>
-      <div className='icons-container'></div>
+      <div className='icons-container'>
+        <HiAcademicCap />
+        <HiCalculator />
+        <HiBell />
+      </div>
     </div>
   );
 }

@@ -1,7 +1,7 @@
 .container {
   width: 100%;
   /* Fixed height */
-  height: 60px;
+  height: 100px;
   background-color: #8568ff;
   /* flex box */
   display: flex;
@@ -21,9 +21,11 @@
 }
 
 .icons-container {
+  display: flex;
+  justify-content: space-between;
   background-color: #ff6868;
   min-width: 150px;
-  height: 40px;
+  margin-right: 10px;
 }
 
 .links {
