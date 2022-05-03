@@ -1,0 +1,34 @@
+.container {
+  width: 100%;
+  /* Fixed height */
+  height: 100px;
+  background-color: #8568ff;
+  /* flex box */
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.links-container {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 100px;
+  max-width: 700px;
+  flex-grow: 1;
+  background-color: #68ff70;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #ff6868;
+  min-width: 150px;
+  margin-right: 10px;
+}
+
+.links {
+  font-family: 'Crimson Pro', serif;
+  font-size: 30px;
+}
